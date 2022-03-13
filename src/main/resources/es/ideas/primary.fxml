@@ -10,13 +10,17 @@
 <?import javafx.scene.control.TableColumn?>
 <?import javafx.scene.control.TableView?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ideas.PrimaryController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="es.ideas.PrimaryController">
    <center>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <children>
@@ -26,38 +30,92 @@
                 <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
               </columnConstraints>
               <rowConstraints>
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
-                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="60.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="106.33334350585938" minHeight="0.0" prefHeight="6.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="221.0" minHeight="10.0" prefHeight="169.999989827474" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="145.33334350585938" minHeight="10.0" prefHeight="145.33334350585938" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <ChoiceBox fx:id="cbSemana" prefWidth="150.0" GridPane.rowIndex="1" />
-                  <AnchorPane GridPane.columnSpan="2">
+                  <ChoiceBox fx:id="cbSemana" prefWidth="150.0" GridPane.rowIndex="2" />
+                  <AnchorPane GridPane.columnSpan="2" GridPane.rowIndex="1">
                      <children>
-                        <Label prefHeight="126.0" prefWidth="600.0" text="Label" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                        <Label prefHeight="126.0" prefWidth="600.0" text="%etiqueta" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
                      </children>
                   </AnchorPane>
-                  <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <children>
                         <TableView prefHeight="200.0" prefWidth="235.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <columns>
-                            <TableColumn prefWidth="75.0" text="Nombre" />
-                            <TableColumn prefWidth="75.0" text="Apellidos" />
+                            <TableColumn prefWidth="75.0" text="%nombre" />
+                            <TableColumn prefWidth="75.0" text="%apellidos" />
                           </columns>
                         </TableView>
                      </children>
                   </AnchorPane>
-                  <TextField promptText="Escribe lo que quieras" GridPane.rowIndex="2" />
-                  <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField promptText="%tf" GridPane.rowIndex="3" />
+                  <AnchorPane GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
-                        <AreaChart layoutX="-188.0" layoutY="-150.0" prefHeight="250.0" prefWidth="312.0" title="Notas Diseño Interfaces" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                        <AreaChart layoutX="-188.0" layoutY="-150.0" prefHeight="250.0" prefWidth="312.0" title="%titulo" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                           <xAxis>
-                            <CategoryAxis label="Notas" side="BOTTOM" />
+                            <CategoryAxis label="%notas" side="BOTTOM" />
                           </xAxis>
                           <yAxis>
-                            <NumberAxis label="Medias" side="LEFT" />
+                            <NumberAxis label="%meidas" side="LEFT" />
                           </yAxis>
                         </AreaChart>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="59.0" prefWidth="600.0">
+                     <children>
+                        <ButtonBar layoutX="149.0" layoutY="1.0" prefHeight="40.0" prefWidth="363.0">
+                           <buttons>
+                              <ToggleButton fx:id="tbIta" accessibleHelp="%btnItaliano" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bIta">
+                                 <graphic>
+                                    <ImageView fx:id="tbIta" fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@pictures/italia.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                              <ToggleButton fx:id="tbUsa" accessibleHelp="%btnInglesUS" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUsa">
+                                 <graphic>
+                                    <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@pictures/estados-unidos.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                              <ToggleButton fx:id="tbEsp" accessibleHelp="%btnEspañol" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bEsp">
+                                 <graphic>
+                                    <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@pictures/espana.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                              <ToggleButton fx:id="tbFra" accessibleHelp="%btnFrances" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bFra">
+                                 <graphic>
+                                    <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@pictures/francia.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                              <ToggleButton fx:id="tbUK" accessibleHelp="%btnFrances" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUk">
+                                 <graphic>
+                                    <ImageView accessibleHelp="%btnInglesUK" fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@pictures/reino-unido.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </ToggleButton>
+                           </buttons>
+                        </ButtonBar>
                      </children>
                   </AnchorPane>
                </children>
@@ -66,11 +124,23 @@
       </AnchorPane>
    </center>
    <bottom>
-      <ButtonBar BorderPane.alignment="CENTER">
-         <buttons>
-            <Button mnemonicParsing="false" text="Button" />
-            <Button mnemonicParsing="false" text="Button" />
-         </buttons>
-      </ButtonBar>
+      <AnchorPane prefHeight="49.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <ButtonBar prefHeight="70.0" prefWidth="548.0">
+               <buttons>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FF8000;" text="%button" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+                  <Button mnemonicParsing="false" style="-fx-background-color: #FF8000;" text="%button" textFill="#fdfdfd">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </Button>
+               </buttons>
+            </ButtonBar>
+         </children>
+      </AnchorPane>
    </bottom>
 </BorderPane>
