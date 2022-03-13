@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
-<<<<<<< HEAD
     <list default="true" id="276d6d48-e310-4406-a401-26c10b31bfd3" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ideas/MultiLenguajeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ideas/MultiLenguajeUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ideas/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ideas/PrimaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es/ideas/primary.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es/ideas/primary.fxml" afterDir="false" />
     </list>
-=======
-    <list default="true" id="276d6d48-e310-4406-a401-26c10b31bfd3" name="Changes" comment="" />
->>>>>>> Cadenas
-=======
-    <list default="true" id="276d6d48-e310-4406-a401-26c10b31bfd3" name="Changes" comment="" />
->>>>>>> Vista
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -43,19 +37,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../multi-languaje-ui-1" />
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/es/ideas/i18n" />
->>>>>>> Cadenas
-=======
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../multi-languaje-ui-1" />
->>>>>>> Vista
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Temporizador" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\joser\Desktop\DAM2\DI\multi-languaje-ui-1\src\main\resources\es\ideas\i18n" />
       <recent name="C:\Users\joser\Desktop\DAM2\DI\multi-languaje-ui-1\src\main\resources\es\ideas\internacionalizacion" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +48,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="MultiLenguajeUI" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\BellSoft\LibericaJDK-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="es.ideas.MultiLenguajeUI" />
@@ -85,15 +70,8 @@
       <workItem from="1647029256961" duration="2802000" />
       <workItem from="1647037330662" duration="2495000" />
       <workItem from="1647179516518" duration="2088000" />
-<<<<<<< HEAD
-<<<<<<< HEAD
-      <workItem from="1647181799803" duration="2011000" />
-=======
-      <workItem from="1647181799803" duration="798000" />
->>>>>>> Cadenas
-=======
-      <workItem from="1647181799803" duration="1534000" />
->>>>>>> Vista
+      <workItem from="1647181799803" duration="716000" />
+      <workItem from="1647183089682" duration="1458000" />
     </task>
     <servers />
   </component>

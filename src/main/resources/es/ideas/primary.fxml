@@ -69,16 +69,16 @@
                      <children>
                         <ButtonBar layoutX="149.0" layoutY="1.0" prefHeight="40.0" prefWidth="363.0">
                            <buttons>
-                              <ToggleButton fx:id="tbIta" accessibleHelp="%btnItaliano" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bIta">
+                              <ToggleButton fx:id="tbIta" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bIta">
                                  <graphic>
-                                    <ImageView fx:id="tbIta" fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@pictures/italia.png" />
                                        </image>
                                     </ImageView>
                                  </graphic>
                               </ToggleButton>
-                              <ToggleButton fx:id="tbUsa" accessibleHelp="%btnInglesUS" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUsa">
+                              <ToggleButton fx:id="tbUsa" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUsa">
                                  <graphic>
                                     <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -87,7 +87,7 @@
                                     </ImageView>
                                  </graphic>
                               </ToggleButton>
-                              <ToggleButton fx:id="tbEsp" accessibleHelp="%btnEspañol" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bEsp">
+                              <ToggleButton fx:id="tbEsp" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bEsp">
                                  <graphic>
                                     <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -96,7 +96,7 @@
                                     </ImageView>
                                  </graphic>
                               </ToggleButton>
-                              <ToggleButton fx:id="tbFra" accessibleHelp="%btnFrances" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bFra">
+                              <ToggleButton fx:id="tbFra" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bFra">
                                  <graphic>
                                     <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
@@ -105,9 +105,9 @@
                                     </ImageView>
                                  </graphic>
                               </ToggleButton>
-                              <ToggleButton fx:id="tbUK" accessibleHelp="%btnFrances" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUk">
+                              <ToggleButton fx:id="tbUK" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" text="%bUk">
                                  <graphic>
-                                    <ImageView accessibleHelp="%btnInglesUK" fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                                    <ImageView fitHeight="50.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
                                        <image>
                                           <Image url="@pictures/reino-unido.png" />
                                        </image>
