@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="276d6d48-e310-4406-a401-26c10b31bfd3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ideas/MultiLenguajeUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ideas/MultiLenguajeUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/es/ideas/PrimaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/es/ideas/PrimaryController.java" afterDir="false" />
     </list>
+=======
+    <list default="true" id="276d6d48-e310-4406-a401-26c10b31bfd3" name="Changes" comment="" />
+>>>>>>> Cadenas
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +39,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../multi-languaje-ui-1" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/es/ideas/i18n" />
+>>>>>>> Cadenas
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -69,7 +77,11 @@
       <workItem from="1647029256961" duration="2802000" />
       <workItem from="1647037330662" duration="2495000" />
       <workItem from="1647179516518" duration="2088000" />
+<<<<<<< HEAD
       <workItem from="1647181799803" duration="2011000" />
+=======
+      <workItem from="1647181799803" duration="798000" />
+>>>>>>> Cadenas
     </task>
     <servers />
   </component>
